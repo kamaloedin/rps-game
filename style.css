@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #16213E;
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+}
+
+.rock:active {
+    background: #eb5f5f;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+}
+
+.paper:active {
+    background: rgb(255, 111, 58);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+}
+
+.scissors:active {
+    background: rgb(32, 131, 32);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+}
+
+.choice {
+    width: 150px;
+    height: 150px;
+    margin: 0px 10px;
+    border-style: solid;
+    border-radius: 5px;
+    color: white
+}
+
+.rock {
+    background-color: #ef1212;
+}
+
+.paper {
+    background-color: orangered;
+}
+
+.scissors {
+    background-color: green;
+}
+
+.info_board {
+    text-align: center;
+}
+
+.player_choices {   
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
